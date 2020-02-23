@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jano"> 
+<test name="HP.xml">
+<parameter name="url" value="htpps://www.facebook.com"></parameter>
+<parameter name="browser" value="chrome"></parameter>
+
+
+<classes>
+<class name="com.Amazon.function.HomePracticForXML"/>
+
+</classes>
+</test>
+</suite>
